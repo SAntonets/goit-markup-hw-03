@@ -1,0 +1,194 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    color:#434455;;
+    background-color: #FFFFFF;
+    font-style: normal;
+}
+
+/** list-type-none **/
+ul {
+    list-style-type: none;
+}
+
+.page-menu {
+    list-style-type: none;
+}
+
+.list {
+    list-style-type: none;
+}
+
+/** header **/
+
+.logo {
+font-family: Raleway, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
+color: #4d5ae5;
+}
+
+.logo-studio-part {
+    color: #2e2f42;
+}
+
+
+
+.page-menu-list {
+color:#2E2F42;
+font-size: 16px;
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+
+.page-menu-list:hover, .page-menu-list:focus {
+    color:  #404bbf;
+}
+
+.adress {
+    font-style: normal;
+}
+
+.page-menu-contacts {
+color: #434455;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0.02em;
+text-decoration: none;
+
+}
+
+.page-menu-contacts:active, .page-menu-contacts:hover, .page-menu-contacts:focus {
+color: #404BBF;
+}
+
+/** section 1 **/
+
+.main-section-one {
+    background-color: #2E2F42;
+}
+
+.slogan {
+    color: #FFF;
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 107.143%;
+letter-spacing: 0.02em;
+}
+
+.border-servise-button {
+background: #4D5AE5;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+cursor: pointer;
+}
+
+.border-servise-button:active, .border-servise-button:hover, .border-servise-button:focus {
+background:#404BBF;
+}
+
+/** section 2 **/
+
+.advantages-list {
+    list-style-type: none;
+}
+
+.advantages-list-title {
+color:#2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 120%;
+letter-spacing: 0.02em;
+}
+
+.advantages-list-txt {
+color:#434455;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing:0.02em;
+}
+
+/** section 3 **/
+
+.our-team-section {
+    background-color: #F4F4FD;
+}
+
+.our-team-header {
+    color:#2E2F42;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
+.our-team-cards {
+    background-color: #FFFFFF;
+
+}
+
+.our-team-txt {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
+/** section 4 **/
+
+.product-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.product-type {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+/** footer **/
+
+.footer-section {
+    background-color: #2e2f42;
+
+}
+
+.logo-foot {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4d5ae5;
+    }
+
+.logo-studio-part-foot {
+    color: #f4f4fd;
+}
+
+.footer-txt {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
