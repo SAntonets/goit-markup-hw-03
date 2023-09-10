@@ -6,28 +6,45 @@ body {
     font-style: normal;
 }
 
-.container { 
-    max-width: 
-    padding-left: 0;
+.container .header-container { 
+    max-width: 100vh;
+    padding-left : 0;
     padding-right: 0;  
     margin-left: 0;
     margin-right: 0;
     }
+
+img {
+    display: block;
+}    
 
 /** list-type-none **/
 ul {
     list-style-type: none;
 }
 
-.page-menu {
+.page-menu .adress-list .list {
     list-style-type: none;
 }
 
-.list {
-    list-style-type: none;
-}
 
 /** header **/
+
+.header {
+    border-bottom: 1px solid #e7e9fc
+}
+
+.header-container {
+    display: flex;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
 
 .logo {
 font-family: Raleway, sans-serif;
@@ -38,12 +55,17 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
 color: #4d5ae5;
+margin-right: 76px;
 }
 
 .logo-studio-part {
     color: #2e2f42;
 }
 
+.page-menu {
+    display: flex;
+    gap: 40px;
+}
 
 
 .page-menu-list {
@@ -53,6 +75,8 @@ font-weight: 500;
 line-height: 150%;
 letter-spacing: 0.02em;
 text-decoration: none;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .page-menu-list:hover, .page-menu-list:focus {
@@ -61,6 +85,11 @@ text-decoration: none;
 
 .adress {
     font-style: normal;
+}
+
+.adress-list {
+    display: flex;
+    gap: 40px;
 }
 
 .page-menu-contacts {
