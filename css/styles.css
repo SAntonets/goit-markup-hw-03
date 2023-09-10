@@ -12,7 +12,7 @@ body {
     padding-right: 0;  
     margin-left: 0;
     margin-right: 0;
-    width: 1158px;
+   
     }
 
 img {
@@ -37,7 +37,7 @@ ul {
 
 .header-container {
     display: flex;
-   
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
