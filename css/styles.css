@@ -110,7 +110,12 @@ color: #404BBF;
 
 .main-section-one {
     background-color: #2E2F42;
+    padding: 188px 0;
 }
+
+.main-section-container {
+width: 1440px;
+height: 600px;}
 
 .slogan {
     color: #FFF;
@@ -119,15 +124,29 @@ font-size: 56px;
 font-weight: 700;
 line-height: 107.143%;
 letter-spacing: 0.02em;
+max-width: 496px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .border-servise-button {
+display: block;
 background: #4D5AE5;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #ffffff;
 cursor: pointer;
+margin-left: auto;
+margin-right: auto;
+border-radius: 4px;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+padding: 16px 32px;
+align-items: flex-start;
+min-width: 169px;
+height: 56px;
+border: none;
+border-radius: 4px;
 }
 
 .border-servise-button:active, .border-servise-button:hover, .border-servise-button:focus {
