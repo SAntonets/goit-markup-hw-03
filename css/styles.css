@@ -160,6 +160,10 @@ background:#404BBF;
 
 }
 
+.our-adv-container {
+margin: 0 auto;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
