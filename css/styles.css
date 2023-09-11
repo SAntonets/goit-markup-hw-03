@@ -188,6 +188,7 @@ ul {
 
 .advantage-list-items {
   flex-basis: calc((100% - 3 * 24px) / 4);
+  min-width: 264px;
 }
 
 .advantages-list-title {
