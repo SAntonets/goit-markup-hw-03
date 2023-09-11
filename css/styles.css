@@ -164,7 +164,7 @@ ul {
 }
 
 .our-adv-container {
-  margin: 0 auto;
+  /** margin: 0 auto; **/
 }
 
 .visually-hidden {
