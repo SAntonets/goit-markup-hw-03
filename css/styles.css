@@ -185,7 +185,9 @@ gap: 24px;
 }
 
 .advantage-list-items {
-width: calc((100%-72px)/4);
+   
+        width: calc((100% - 72px) / 4);
+    
 }
 
 .advantages-list-title {
