@@ -184,6 +184,7 @@ ul {
 .advantages-list {
   display: flex;
   gap: 24px;
+  padding: 0;
 }
 
 .advantage-list-items {
