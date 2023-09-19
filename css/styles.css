@@ -36,6 +36,8 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav {
@@ -62,8 +64,6 @@ ul {
 .page-menu {
   display: flex;
   gap: 40px;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 
 .page-menu-list {
@@ -86,8 +86,6 @@ ul {
 
 .adress {
   font-style: normal;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 
 .adress-list {
