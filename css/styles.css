@@ -60,7 +60,6 @@ ul {
 .page-menu {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .page-menu-list {
@@ -71,6 +70,7 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   padding-bottom: 20px;
+  padding: 24px 0;
 }
 
 .page-menu-list:hover,
