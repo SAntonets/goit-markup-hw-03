@@ -308,6 +308,7 @@ ul {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding: 0;
 }
 
 .portfolio-ithem {
