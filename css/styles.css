@@ -86,6 +86,8 @@ ul {
 
 .adress {
   font-style: normal;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .adress-list {
@@ -152,6 +154,8 @@ ul {
   height: 56px;
   border: none;
   border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 
 .border-servise-button:active,
@@ -195,6 +199,7 @@ ul {
 
 .advantage-list-items {
   width: calc((100% - 72px) / 4);
+  text-align: center;
 }
 
 .advantages-list-title {
@@ -218,6 +223,7 @@ ul {
 
 .our-team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .our-team-container {
@@ -233,6 +239,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .our-team-list {
