@@ -33,11 +33,14 @@ ul {
 .header-container {
   display: flex;
   align-items: center;
+  padding-left: 156px;
+  padding-right: 156px;
 }
 
 .nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .logo {
@@ -49,7 +52,7 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
-  margin-right: 76px;
+  margin-right: 36px;
   padding: 24px 0;
 }
 
