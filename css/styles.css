@@ -13,6 +13,7 @@ body {
 
 img {
   display: block;
+  padding: 0;
 }
 
 /** list-type-none **/
