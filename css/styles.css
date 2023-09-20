@@ -18,6 +18,8 @@ img {
 /** list-type-none **/
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .page-menu .list {
@@ -33,8 +35,6 @@ ul {
 .header-container {
   display: flex;
   align-items: center;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 
 .nav {
@@ -52,7 +52,7 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
-  margin-right: 36px;
+  margin-right: 76px;
   padding: 24px 0;
 }
 
@@ -92,7 +92,6 @@ ul {
   display: flex;
   gap: 40px;
   align-items: center;
-  padding: 24px 0;
 }
 
 .page-menu-contacts {
@@ -118,9 +117,6 @@ ul {
 }
 
 .main-section-container {
-  width: 1440px;
-  height: 600px;
-  margin: 0 auto;
 }
 
 .slogan {
@@ -131,8 +127,7 @@ ul {
   line-height: 107.143%;
   letter-spacing: 0.02em;
   max-width: 496px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 48px;
 }
 
 .border-servise-button {
@@ -170,9 +165,6 @@ ul {
 }
 
 .our-adv-container {
-  padding: 0 0;
-  margin-top: 120px;
-  margin-bottom: 120px;
 }
 
 .visually-hidden {
@@ -191,6 +183,7 @@ ul {
 
 .advantages-list {
   display: flex;
+
   gap: 24px;
   padding: 0;
   margin: 0;
@@ -198,7 +191,6 @@ ul {
 
 .advantage-list-items {
   width: calc((100% - 72px) / 4);
-  text-align: center;
 }
 
 .advantages-list-title {
@@ -226,8 +218,6 @@ ul {
 }
 
 .our-team-container {
-  margin-top: 120px;
-  margin-bottom: 120px;
 }
 
 .our-team-header {
@@ -239,6 +229,7 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+  margin-top: 0;
 }
 
 .our-team-list {
@@ -258,21 +249,21 @@ ul {
 }
 
 .our-team-emloyer {
-  margin-top: 32px;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 8px;
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 8px;
 }
 
 .our-team-txt {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin: 0;
   text-align: center;
 }
 
@@ -298,7 +289,6 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 72px;
   margin: 0 auto 72px auto;
 }
 
@@ -331,6 +321,7 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  margin-top: 0;
   text-align: center;
 }
 
@@ -340,6 +331,7 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  margin: 0;
 }
 
 /** footer **/
@@ -370,4 +362,6 @@ ul {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  margin: 0;
+  max-width: 264px;
 }
