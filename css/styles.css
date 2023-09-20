@@ -319,6 +319,7 @@ ul {
   padding: 32px 0;
   border: 1px solid #e7e9fc;
   border-top: none;
+  max-width: 360px;
 }
 
 .product-name {
