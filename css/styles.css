@@ -171,9 +171,6 @@ ul {
   padding: 120px 0;
 }
 
-.our-adv-container {
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -206,6 +203,7 @@ ul {
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0.02em;
+  margin-top: 0;
   margin-bottom: 8px;
 }
 
@@ -215,6 +213,7 @@ ul {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.02em;
+  margin: 0;
 }
 
 /** section 3 **/
@@ -222,9 +221,6 @@ ul {
 .our-team-section {
   background-color: #f4f4fd;
   padding: 120px 0;
-}
-
-.our-team-container {
 }
 
 .our-team-header {
@@ -280,14 +276,6 @@ ul {
   padding: 120px 0 120px 0;
 }
 
-.portfolio-container {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-  padding: 0;
-}
-
 .our-portfolio-header {
   color: #2e2f42;
   text-align: center;
@@ -296,7 +284,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin: 0 auto 72px auto;
+  margin: 0 0 72px;
 }
 
 .our-team-header {
@@ -319,7 +307,7 @@ ul {
   padding: 32px 0;
   border: 1px solid #e7e9fc;
   border-top: none;
-  max-width: 360px;
+  padding: 32px 16px;
 }
 
 .product-name {
